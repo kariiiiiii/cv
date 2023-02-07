@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <h1>Contacts</h1>
+
+    <p>Fictional Address</p>
+    <p>096671287893</p>
+    <p>blabla@gmail.com</p>
+    <p><a href="https://www.facebook.com/">Facebook</a></p>
+    <p><a href="https://www.instagram.com/">Instagram</a></p>
+    <hr />
+
+    <!-- label and input are always present in forms-->
+    <!-- action:email or link-->
+    <!-- method: writes data in mail-->
+    <!-- enctype: gets rid of alien texts accrd to UTF-8 -->
+    <form
+      action="mailto:karicaslop@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label>Your Name:</label>
+      <!-- name: labels input in mail-->
+      <input name="YourName" type="text" /> <br />
+      <label>Your Email:</label>
+      <input name="YourEmail" type="email" /> <br />
+      <label>Your Message:</label><br />
+      <!-- cols & rows: initial size of textarea-->
+      <textarea name="YourMessage" cols="30" rows="10"></textarea> <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
